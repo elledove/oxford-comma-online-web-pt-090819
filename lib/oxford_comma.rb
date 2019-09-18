@@ -6,20 +6,9 @@ def oxford_comma(array)
    array.length == 2 
    array.join (" and ")
    
-   #elsif 
-   #array.length == 3
-   #new_array = "and #{array[-1]}"array.pop
-  #array.push(new_array)
-   
-   
- elsif 
- array.length == 3 
- new_array = "and #{array[-1]}" array.pop 
- array.push(new_array) 
- 
- #final code end end
-   
-   
-   
+   elsif 
+   array.length == 3
+   new_array = "and #{array[-1]}"array.pop
+  array.push(new_array)
    end
 end
