@@ -8,6 +8,6 @@ def oxford_comma(array)
    elsif 
    array.length == 3
    new_array= []
-   new_array.push(array)
+   new_array.push(array.join)
  end
 end
