@@ -11,7 +11,6 @@ def oxford_comma(array)
    new_array = "and #{array[-1]}"
    array.pop
   array.push(new_array)
-  array.join(",")
-  
-   end
+  return array.join(",")
+  end
 end
