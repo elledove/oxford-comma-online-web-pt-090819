@@ -7,7 +7,7 @@ def oxford_comma(array)
    array.join (" and ")
    elsif 
    array.length >= 3
-   "and #{array[-1]}"
+   array.pop << "and #{array[-1]}"
    
    end
 end
